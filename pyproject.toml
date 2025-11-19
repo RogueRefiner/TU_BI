@@ -5,6 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "atoti>=0.9.10",
     "dotenv>=0.9.9",
     "ipykernel>=7.0.1",
     "jupyterlab>=4.4.10",
