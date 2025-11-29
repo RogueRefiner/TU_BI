@@ -1,0 +1,41 @@
+purpose,category,param_name,region_name,country_name
+Health Risk,Particulate matter,PM1,Central Europe,Austria
+Health Risk,Gas,NO2,Central Europe,Austria
+Health Risk,Particulate matter,PM1,Central Europe,Croatia
+Health Risk,Gas,NO2,Central Europe,Croatia
+Health Risk,Particulate matter,PM1,Central Europe,Czech Republic
+Health Risk,Gas,NO2,Central Europe,Czech Republic
+Health Risk,Particulate matter,PM1,Central Europe,Germany
+Health Risk,Gas,NO2,Central Europe,Germany
+Health Risk,Particulate matter,PM1,Central Europe,Hungary
+Health Risk,Gas,NO2,Central Europe,Hungary
+Health Risk,Particulate matter,PM1,Central Europe,Poland
+Health Risk,Gas,NO2,Central Europe,Poland
+Health Risk,Particulate matter,PM1,Eastern Europe,Belarus
+Health Risk,Gas,NO2,Eastern Europe,Belarus
+Health Risk,Particulate matter,PM1,Eastern Europe,Greece
+Health Risk,Gas,NO2,Eastern Europe,Greece
+Health Risk,Particulate matter,PM1,Eastern Europe,Russia
+Health Risk,Gas,NO2,Eastern Europe,Russia
+Health Risk,Particulate matter,PM1,Eastern Europe,Serbia
+Health Risk,Gas,NO2,Eastern Europe,Serbia
+Health Risk,Particulate matter,PM1,Eastern Europe,Turkey
+Health Risk,Gas,NO2,Eastern Europe,Turkey
+Health Risk,Particulate matter,PM1,Western Europe,Belgium
+Health Risk,Gas,NO2,Western Europe,Belgium
+Health Risk,Particulate matter,PM1,Western Europe,Denmark
+Health Risk,Gas,NO2,Western Europe,Denmark
+Health Risk,Particulate matter,PM1,Western Europe,Finland
+Health Risk,Gas,NO2,Western Europe,Finland
+Health Risk,Particulate matter,PM1,Western Europe,France
+Health Risk,Gas,NO2,Western Europe,France
+Health Risk,Particulate matter,PM1,Western Europe,Italy
+Health Risk,Gas,NO2,Western Europe,Italy
+Health Risk,Particulate matter,PM1,Western Europe,Netherlands
+Health Risk,Gas,NO2,Western Europe,Netherlands
+Health Risk,Particulate matter,PM1,Western Europe,Spain
+Health Risk,Gas,NO2,Western Europe,Spain
+Health Risk,Particulate matter,PM1,Western Europe,Sweden
+Health Risk,Gas,NO2,Western Europe,Sweden
+Health Risk,Particulate matter,PM1,Western Europe,United Kingdom
+Health Risk,Gas,NO2,Western Europe,United Kingdom

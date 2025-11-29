@@ -1,0 +1,20 @@
+-- Show Avg Data Quality by Country for 2023 and 2024. 
+-- Return Countries on rows and two columns—2023 and 2024 values of Avg Data Quality.
+
+SELECT
+  {
+    [dim_timemonth].[Time].[ALL].[AllMember].[2023],
+    [dim_timemonth].[Time].[ALL].[AllMember].[2024]
+  } ON COLUMNS,
+  [dim_city].[Geo].[country_name] ON ROWS
+  FROM (
+    SELECT
+    {
+      [dim_city].[Geo].[ALL].[AllMember].[Western Europe],
+      [dim_city].[Geo].[ALL].[AllMember].[Eastern Europe],
+      [dim_city].[Geo].[ALL].[AllMember].[Central Europe]
+    } ON COLUMNS
+    FROM [AirQ Cube]
+    WHERE [Measures].[Avg Data Quality]
+  )
+  WHERE [Measures].[Avg Data Quality]

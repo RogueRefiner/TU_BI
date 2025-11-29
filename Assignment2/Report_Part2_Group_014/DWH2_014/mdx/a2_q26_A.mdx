@@ -1,0 +1,14 @@
+-- For parameters PM1 and NO2, show Avg Recorded Value by Country for 2024. 
+-- Return Countries on rows and two columns - PM1 and NO2 (Avg Recorded Value) - for the year 2024.
+
+SELECT
+  {
+    [dim_param].[Param].[ALL].[AllMember].[Health Risk].[Particulate matter].[PM1],
+    [dim_param].[Param].[ALL].[AllMember].[Health Risk].[Gas].[NO2]
+  } ON COLUMNS,
+  NON EMPTY [dim_city].[Geo].[country_name].Members ON ROWS
+  FROM [AirQ Cube]
+  WHERE (
+    [Measures].[Avg Recorded Value],
+    [dim_timemonth].[Time].[ALL].[AllMember].[2024]
+  )
